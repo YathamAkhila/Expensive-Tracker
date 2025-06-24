@@ -1,0 +1,75 @@
+body
+{
+    font-family: "Comfortaa", sans-serif;
+}
+
+.header{
+    color:white;
+    background: blue;
+    padding-left: 20px;
+    font-size: large;
+}
+.input-form{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin:auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476EF7;
+    margin-top: 15px;
+    padding: 25px 0px;
+}
+
+#add-button{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: xx-large;
+    font-weight: 600;
+    color: white;
+
+}
+.inputs{
+    width:30%;
+}
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+.card{
+    background-color: blue;
+    border:0px;
+    height: 150px;
+}
+.card-body{
+    color: white;
+}
+.transaction-table{
+    border:1px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+    width:95%;
+    margin: auto;
+    font-weight: 800;
+     margin-top: 15px;
+}
+#header-row{
+    background: blue;
+   
+}
+#header-row th{
+    padding: 15px 10px;
+    color: white;
+
+}
+.delete-button,.delete-button:hover{
+    background: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:none;
+
+}
